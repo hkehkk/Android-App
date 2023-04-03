@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignatureActivity"
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="26dp">
+
+
+
+                    <Button
+                        android:id="@+id/clearButton"
+                        android:layout_width="154dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:text="Clear"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/signaturePad" />
+
+                    <Button
+                        android:id="@+id/saveButton"
+                        android:layout_width="154dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="33dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:text="Save"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/signaturePad" />
+
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="288dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clearButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="36dp"
+        android:text="Parent/Guardian signature below:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+                        android:id="@+id/signaturePad"
+                        android:layout_width="345dp"
+                        android:layout_height="160dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginStart="33dp"
+                        android:layout_marginTop="21dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
