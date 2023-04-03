@@ -1,1 +1,6 @@
 # AndroidApp
+
+#There needed to be a solution for employees to track their client meetings electronically. The local business was still tracking such meetings by paper, it was messy. Therefore, I created a solution that would be a fit for the business and a completed task for my programming class.
+ While once working for this local business, I observed their process and noticed what features would be needed in the application. I conferred with my professor on the best action to take. After that conversation, I decide to create a mobile app – ease of access for the employee. I then took a class on Android Studio and the fundamentals of starting a project.
+ There was a great challenge with being on a platform that I had never used before. I used many resources to get the task done. The result was great. The mobile app works just like it was intended to. I found this project to be fun and rewarding.
+ During this project, I learned that there is an abundance of resources available to programmers and to not be afraid to use them. I also learned that I work best when jumping into the project whole-heartedly. I spent a great deal of time on this project and learned great programming tips from various places, including myself.
